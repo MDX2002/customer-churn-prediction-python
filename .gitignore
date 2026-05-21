@@ -1,5 +1,22 @@
-venv/ 
-__pycache__/ 
-*.pyc 
-.DS_Store 
-.ipynb_checkpoints/ 
+# Virtual environment
+venv/
+
+# Data files (usually large, not for version control)
+data/
+
+# Model and scaler binaries
+*.pkl
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
